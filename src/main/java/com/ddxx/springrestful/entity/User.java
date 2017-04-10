@@ -1,7 +1,7 @@
 /**
  * 
  */
-package org.xdemo.example.springrestful.entity;
+package com.ddxx.springrestful.entity;
 
 /**
  * @作者 Goofy
