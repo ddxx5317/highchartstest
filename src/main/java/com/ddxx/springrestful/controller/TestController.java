@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.ddxx.springrestful.entity.User;
 
+
 @Controller
 @RequestMapping("/test")
 public class TestController {
