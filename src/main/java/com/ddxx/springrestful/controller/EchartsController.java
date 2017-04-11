@@ -29,7 +29,7 @@ public class EchartsController {
     @RequestMapping("/stackChart")  
     public String stackChart(HttpServletRequest res)  
     {  
-        Option option = ech.stackChart();  
+        Option option = ech.stackChart();
           
         String opt = JSON.toJSONString(option);  
           

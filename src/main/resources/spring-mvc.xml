@@ -40,6 +40,7 @@
 
     <!-- 静态资源文件，不会被Spring MVC拦截 -->
     <mvc:resources location="/resources/" mapping="/resources/**"/>
+    <mvc:resources location="/js/" mapping="/js/**"/>
     
     <!-- 指定Sping组件扫描的基本包路径 -->
     <context:component-scan base-package="com.ddxx" >
